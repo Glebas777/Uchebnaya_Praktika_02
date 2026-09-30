@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# База данных
+*.sqlite
+db/os.sqlite
+
+# Виртуальное окружение
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Логи
+logs/
+*.log
+EOF
